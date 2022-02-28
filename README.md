@@ -4,6 +4,7 @@ Try of the popular game "Wordle"
 Estructura del proyecto:
 app
     js
+        main.js
     board
         board.js 
     css
