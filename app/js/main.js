@@ -1,8 +1,11 @@
-import Board from "../board/board"
+//import Board from "../board/board"
 
-function rand_word_searcher() {
-    
-}
+var fs = require('fs');
 
-const tabla = new Board()
-
+fs.readFile('D:/Proyectos/WordleJS/wordle/app/words.txt', 'utf8', function(err, data){
+    if (err) {
+        return console.log(err);
+    }
+    let lista = data.split(" ")
+    console.log(lista)
+});
